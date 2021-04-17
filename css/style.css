@@ -1,0 +1,43 @@
+body {
+  padding: 15px 25px;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+h1 {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: yellow;
+  color: #333;
+  font-size: 22px;
+}
+
+h2 {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: yellow;
+  color: #333;
+  font-size: 22px;
+}
+
+.sandbox {
+  margin-bottom: 250px;
+  width: 100%;
+}
+
+.sandbox h2 {
+  background-color: transparent;
+}
+
+.nav-block {
+  margin-bottom: 50px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

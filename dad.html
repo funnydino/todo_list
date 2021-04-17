@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="author" content="Пономарёв Алексей">
+  <meta name="keywords" content="javascript, skillbox, frontend">
+  <meta name="description" content="Изучение языка программирования JavaScript">
+  <link rel="icon" href="./images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      createTodoApp(document.getElementById('todo-app'), 'Дела папы', 'dadList');
+    });
+  </script>
+  <script defer src="./js/todo-app.js"></script>
+  <title>ToDo App</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>JavaScript</h1>
+    <br>
+    <h2>Модуль 8. Введение в DOM. Часть 2. Создаём приложение "Список дел"</h2>
+    <hr>
+    <div class="nav-block md-5">
+      <nav class="nav">
+        <a class="nav-link" href="./index.html">Мои дела</a>
+        <a class="nav-link" href="./dad.html">Дела папы</a>
+        <a class="nav-link" href="./mom.html">Дела мамы</a>
+      </nav>
+    </div>
+    <div class="sandbox" id="todo-app"></div>
+  </div>
+</body>
+
+</html>
